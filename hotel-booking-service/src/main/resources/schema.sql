@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS booking;
+ 
+CREATE TABLE booking (
+  id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+  username VARCHAR(100) NULL,
+  address VARCHAR(200) NULL,
+  email VARCHAR(45) NULL,
+  phone INT NULL,
+  fromdate VARCHAR(45) NULL,
+  todate VARCHAR(45) NULL,
+  hotelid INT NULL
+);
+
