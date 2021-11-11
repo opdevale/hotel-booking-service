@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.ooy.hotels.booking.bean.HotelDetailsDTO;
 
-@FeignClient(name = "HotelBooking", url = "http://inpusclp07451.techmahindra.com:8082/hotelRegistration")
+@FeignClient(name = "HotelBooking", url = "http://localhost:8082/hotelRegistration")
 public interface HotelListProxy {
 	
 	@RequestMapping(value = "/hotel/findAll", method = RequestMethod.GET)
